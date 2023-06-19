@@ -53,7 +53,7 @@ import 'package:nyx_printer/nyx_printer.dart';
       );
   }
 ```
-## Print QR
+## Print Barcode
 
 ```dart
   Future<void> printBarcode() async {
