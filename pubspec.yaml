@@ -1,7 +1,7 @@
 name: nyx_printer
-description: A new Flutter plugin project.
+description: Flutter Plugin that connect to Nyx devices Printer such as NB55
 version: 0.0.1
-homepage:
+homepage: https://github.com/Aladdin16659/NyxPrinter
 
 environment:
   sdk: ">=3.0.3 <4.0.0"
