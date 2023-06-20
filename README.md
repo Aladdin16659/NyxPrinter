@@ -1,8 +1,6 @@
-
-# Nyx Printer 
+# Nyx Printer
 
 Flutter Plugin that connect to Nyx devices Printer such as NB55.
-
 
 ## Installation
 
@@ -11,9 +9,8 @@ Install Nyx Printer with pub
 ```bash
   flutter pub add nyx_printer
 ```
-    
-![Receipt](https://raw.githubusercontent.com/Aladdin16659/NyxPrinter/main/example/images/receipt.jpeg)
 
+![Receipt](https://raw.githubusercontent.com/Aladdin16659/NyxPrinter/main/example/images/receipt.jpeg)
 
 ## Print Image
 
@@ -27,6 +24,7 @@ import 'package:nyx_printer/nyx_printer.dart';
     await _nyxPrinterPlugin.printImage(image.buffer.asUint8List());
   }
 ```
+
 ## Print Text
 
 ```dart
@@ -42,6 +40,7 @@ import 'package:nyx_printer/nyx_printer.dart';
       );
   }
 ```
+
 ## Print QR
 
 ```dart
@@ -53,7 +52,8 @@ import 'package:nyx_printer/nyx_printer.dart';
       );
   }
 ```
-## Print QR
+
+## Print Barcode
 
 ```dart
   Future<void> printBarcode() async {
@@ -65,9 +65,7 @@ import 'package:nyx_printer/nyx_printer.dart';
   }
 ```
 
-
 ## License
 
 [MIT](https://github.com/Aladdin16659/NyxPrinter/blob/main/LICENSE)
 Copyright (c) 2023 ALADDIN SID AHMED
-
